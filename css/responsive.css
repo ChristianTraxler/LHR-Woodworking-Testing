@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 567px) and (max-width: 665px) and (orientation: landscape) {
 
-    /*video, .desktop { display: none; }*/
+
 
     .mobile { display: none; }
 
@@ -133,6 +133,15 @@
 
     /* End of Coming Soon page */
 
+    img[src*="LHR-Grading"] {
+        width: 10%;
+        top: 10px;
+        left: 6px;
+    }
+
+    header > h1 { padding: 81px 0; }
+
+    .before-after { display: initial; }
 
     .container { grid-template-rows: 60px 233px auto auto; }
 
@@ -153,9 +162,13 @@
     .before-wrapper, .after-wrapper { display: initial; }
 
     img[src*="DOC"] {
-        width: 6%;
+        width: 7%;
         /*top: 7px;*/
     }
+
+    footer .footer-col { max-width: 286px; }
+
+    .tel, .inside, .email { font-size: 14px; }
 
     .lightbox > img[src*="IMG_8742"] {
         width: initial;
@@ -165,9 +178,14 @@
 
 @media screen and (max-width: 400px) {
 
+    header > h1 { padding: 75px 0; }
+
     .container { grid-template-rows: 60px 221px auto auto; }
 
     /*.before-after { padding: 10px 20px; }*/
+
+    .products > h2::before, h2::after { width: 6rem; }
+    .services > h2::before, h2::after { width: 6rem; }
 
 }
 
