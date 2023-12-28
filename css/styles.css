@@ -40,6 +40,7 @@ nav {
 .navbar-nav {
     margin: auto;
     align-items: center;
+    font-weight: 600;
 }
 
 img[src*="LHR-Grading"] {
