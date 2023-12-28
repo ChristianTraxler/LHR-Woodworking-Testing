@@ -14,7 +14,7 @@ body {
     "products products"
     "services services"
     "footer footer";
-    grid-template-rows: 80px 300px 800px 800px 222px;
+    grid-template-rows: 80px 300px 800px 400px 222px;
     grid-template-columns: 1fr 3fr;
 }
 
@@ -28,6 +28,7 @@ header > h1 {
     align-self: center;
     padding: 114px 0;
     font-family: 'Black Ops One', sans-serif;
+    background-image: url("../assets/images/products/photo-1597113366853-fea190b6cd82.webp");
 }
 
 nav {
@@ -59,7 +60,7 @@ ul {
 ul > li {
     display: block;
     font-size: var(--size-18);
-    text-align: center;
+    /*text-align: center;*/
 }
 
 a:link { text-decoration: none; }
@@ -74,6 +75,7 @@ a:hover { text-decoration: underline; }
     grid-area: products;
     background-color: beige;
     padding-top: 40px;
+    /*background-image: url("../assets/images/products/photo-1597113366853-fea190b6cd82.webp");*/
 }
 
 .products > h2 {
@@ -95,11 +97,11 @@ a:hover { text-decoration: underline; }
     background-color: beige;
 }
 
-.services > h2 {
+.services-block > h2 {
     text-align: center;
 }
 
-.services > h2::before, h2::after {
+.services > div > h2::before, h2::after {
     display: inline-block;
     content: "";
     border-top: .1rem solid black;
