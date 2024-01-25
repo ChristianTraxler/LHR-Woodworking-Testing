@@ -51,6 +51,8 @@ img[src*="LHR-Grading"] {
     width: 6%;
 }
 
+#logo { height: 70px; width: 80px; overflow: hidden; }
+
 ul {
     display: flex;
     gap: 15%;
@@ -76,6 +78,14 @@ a:hover { text-decoration: underline; }
     background-color: beige;
     padding-top: 40px;
     /*background-image: url("../assets/images/products/photo-1597113366853-fea190b6cd82.webp");*/
+}
+
+.products-wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    position: relative;
 }
 
 .products > h2 {

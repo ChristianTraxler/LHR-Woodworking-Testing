@@ -139,11 +139,14 @@
         left: 6px;
     }
 
+    #logo { height: initial; width: 10%; overflow: hidden; }
+
     .navbar-nav {
-        gap: 13%;
+        gap: 8%;
         padding: 0;
-        left: 16px;
+        /*left: 2px;*/
         position: relative;
+        text-align: center;
     }
 
     header > h1 { padding: 79.5px 0; }
@@ -189,10 +192,10 @@
 
     .tel, .inside, .email { font-size: 14px; }
 
-    .lightbox > img[src*="IMG_8742"] {
-        width: initial;
-        margin: initial;
-    }
+    /*.lightbox > img[src*="IMG_8742"] {*/
+    /*    width: initial;*/
+    /*    margin: initial;*/
+    /*}*/
 }
 
 @media screen and (max-width: 400px) {
