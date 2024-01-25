@@ -210,6 +210,8 @@
 
 @media screen and (max-width: 375px) {
 
+    header > h1 { padding: 68.5px 0; }
+
     .container { grid-template-rows: 60px 211px auto auto; }
 
     /*img[src*="DOC"] { top: 6px; }*/
