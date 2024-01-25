@@ -14,13 +14,13 @@ body {
     "products products"
     "services services"
     "footer footer";
-    grid-template-rows: 80px 300px 800px 400px 222px;
+    grid-template-rows: 80px 300px 1600px 400px 222px;
     grid-template-columns: 1fr 3fr;
 }
 
 header {
     grid-area: header;
-    background-color: orangered;
+    background-color: #A62216;
 }
 
 header > h1 {
@@ -33,7 +33,7 @@ header > h1 {
 
 nav {
     grid-area: nav;
-    background-color: orange;
+    background-color: #D19300;
     display: flex !important;
     align-items: center;
 }
@@ -112,7 +112,9 @@ a:hover { text-decoration: underline; }
 
 .before-after {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 45%);
+    grid-row-gap: 10%;
+    grid-column-gap: 10%;
 }
 
 .card {

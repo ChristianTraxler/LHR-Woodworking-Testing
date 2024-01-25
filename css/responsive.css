@@ -139,6 +139,13 @@
         left: 6px;
     }
 
+    .navbar-nav {
+        gap: 13%;
+        padding: 0;
+        left: 16px;
+        position: relative;
+    }
+
     header > h1 { padding: 81px 0; }
 
     .before-after { display: initial; }
