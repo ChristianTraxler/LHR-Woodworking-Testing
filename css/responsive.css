@@ -116,7 +116,7 @@
 
     /* Coming Soon page */
 
-    img[src*="LHR-logo(white)"] { width: 20%;}
+    img[src*="LHR-logo(white)"] { width: 20%; }
 
     .middle > .construction > h1 { font-size: 40px; }
 
@@ -151,7 +151,7 @@
 
     header > h1 { padding: 79.5px 0; }
 
-    .before-after { display: initial; }
+    /*.before-after { display: initial; }*/
 
     .container { grid-template-rows: 60px 233px auto auto; }
 
