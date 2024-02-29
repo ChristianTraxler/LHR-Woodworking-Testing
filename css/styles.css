@@ -183,7 +183,10 @@ img[src*="IMG_0252"], img[src*="custom-record-board"] {
     /*position: relative;*/
 }
 
-.before > h3 { text-align: center; }
+.before > h3 {
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+}
 
 .services-container {
     padding-bottom: 40px;
