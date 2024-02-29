@@ -172,6 +172,8 @@
 
     .mobile { display: initial; }
 
+    .products { padding: initial; }
+
     .before-after {
         display: flex;
         flex-wrap: wrap;

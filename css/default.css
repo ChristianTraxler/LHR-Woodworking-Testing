@@ -34,6 +34,8 @@
     --gradients-red-3: linear-gradient(110deg, #FF9D3F 0.07%, #F46772 40.61%, #AF33E4 69.54%, #2F70E4 100.44%);
 }
 
+html { scroll-behavior: smooth; }
+
 /* 1. Use a more-intuitive box-sizing model. */
 *, *::before, *::after {
     box-sizing: border-box;
